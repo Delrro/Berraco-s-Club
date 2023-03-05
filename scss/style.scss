@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #DAD2BC;
+
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+
+    #navbarNavDropdown{
+        display: flex;
+        justify-content: end;
+    }
+
+}
+  
+.h2s{
+    display: grid;
+    text-align: center;
+    padding: 30px;
+}
+  
+.texto{
+    text-align: center;
+    padding: 20px;
+}
+  
+  
+.pie{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+  
+.logo{
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
+  
+.mapa1{
+    display: block;
+    margin:auto;
+    padding-top: 20px;
+}
+  
+  
+#carouselExampleIndicators{
+    height: 700px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+}
+  
+.navtransition{
+    font-size: 20px;
+    transition: font-size 0.5s ease;
+}
+  
+.navtransition:hover{
+    font-size: 25px;
+}
+  
+.botones{
+    margin: 15px;
+    border-radius: 15px;
+}
+  
+  
+.textarea{
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+}
+  
+.logoinstagram{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+  
+.backcolornav{
+    background-color: #A99985;
+}

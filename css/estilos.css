@@ -1,43 +1,50 @@
-*{ margin: 0px;
-  padding: 0px;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-body{
+body {
   background-color: #DAD2BC;
 }
+body .logo {
+  width: 150px;
+  height: 100px;
+}
+body #navbarNavDropdown {
+  display: flex;
+  justify-content: end;
+}
 
-.h2s{
+.h2s {
   display: grid;
   text-align: center;
   padding: 30px;
 }
 
-.texto{
+.texto {
   text-align: center;
   padding: 20px;
 }
 
-
-.pie{
+.pie {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 25px;
-  }
+}
 
-.logo{
+.logo {
   width: 30%;
   height: 30%;
   cursor: pointer;
 }
 
-.mapa1{
+.mapa1 {
   display: block;
-  margin:auto;
+  margin: auto;
   padding-top: 20px;
 }
 
-
-#carouselExampleIndicators{
+#carouselExampleIndicators {
   height: 700px;
   width: 500px;
   display: block;
@@ -45,28 +52,27 @@ body{
   padding-bottom: 40px;
 }
 
-.navtransition{
-  font-size: 25px;
+.navtransition {
+  font-size: 20px;
   transition: font-size 0.5s ease;
 }
 
-.navtransition:hover{
-  font-size: 30px;
+.navtransition:hover {
+  font-size: 25px;
 }
 
-.botones{
+.botones {
   margin: 15px;
   border-radius: 15px;
 }
 
-
-.textarea{
+.textarea {
   display: inline-block;
   width: 500px;
   height: 200px;
 }
 
-.logoinstagram{
+.logoinstagram {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -74,14 +80,8 @@ body{
   width: 100px;
 }
 
-.backcolornav{
+.backcolornav {
   background-color: #A99985;
 }
 
-
-
-
-
-
-
-
+/*# sourceMappingURL=estilos.css.map */
