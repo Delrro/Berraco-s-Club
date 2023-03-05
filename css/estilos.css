@@ -30,24 +30,12 @@ body{
   cursor: pointer;
 }
 
-.form{
-  padding: 4px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
 .mapa1{
   display: block;
   margin:auto;
   padding-top: 20px;
 }
 
-.fotoproductos{
-  width: 300px;
-  height: 500px;
-  padding: 40px;
-}
 
 #carouselExampleIndicators{
   height: 700px;
@@ -67,19 +55,10 @@ body{
 }
 
 .botones{
-  border-radius: 5px;
-  background-color: rgb(180, 134, 55);
-  margin-top: 20px;
-  display: flex;
-  text-align: center;
-  transition: all 0.2s;
-  
+  margin: 15px;
+  border-radius: 15px;
 }
 
-.botones:hover{ 
-  border-radius: 10px;
-  padding: 20px;
-}
 
 .textarea{
   display: inline-block;
@@ -98,6 +77,9 @@ body{
 .backcolornav{
   background-color: #A99985;
 }
+
+
+
 
 
 
