@@ -6,7 +6,7 @@ body{
   background-color: #DAD2BC;
 }
 
-.h2productos{
+.h2s{
   display: grid;
   text-align: center;
   padding: 30px;
@@ -22,7 +22,7 @@ body{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 25px;
-}
+  }
 
 .logo{
   width: 30%;
@@ -66,23 +66,25 @@ body{
   font-size: 30px;
 }
 
-.inputs{
+.botones{
   border-radius: 5px;
   background-color: rgb(180, 134, 55);
-  transition: 0.5s linear;
-  display: block;
-  margin: auto;
-  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  transition: all 0.2s;
+  
 }
 
-.inputs:hover{
-  border-radius: 15px;
+.botones:hover{ 
+  border-radius: 10px;
   padding: 20px;
 }
 
 .textarea{
-  display: block;
-  margin: auto;
+  display: inline-block;
+  width: 500px;
+  height: 200px;
 }
 
 .logoinstagram{
