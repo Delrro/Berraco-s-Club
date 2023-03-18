@@ -13,22 +13,27 @@ body .logo {
 body #navbarNavDropdown {
   display: flex;
   justify-content: end;
+  font-family: "Ultra", serif;
+  font-style: italic;
 }
 
 .h2s {
-  display: grid;
   text-align: center;
   padding: 30px;
+  font-family: "Shrikhand", cursive;
 }
 
 .texto {
   text-align: center;
   padding: 20px;
+  font-family: "Fondamento", cursive;
 }
 
 .pie {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 225px;
   padding-bottom: 25px;
 }
 
@@ -56,7 +61,6 @@ body #navbarNavDropdown {
   font-size: 20px;
   transition: font-size 0.5s ease;
 }
-
 .navtransition:hover {
   font-size: 25px;
 }
@@ -64,6 +68,7 @@ body #navbarNavDropdown {
 .botones {
   margin: 15px;
   border-radius: 15px;
+  background-color: #A99985;
 }
 
 .textarea {
@@ -82,6 +87,34 @@ body #navbarNavDropdown {
 
 .backcolornav {
   background-color: #A99985;
+}
+
+#accordionPanelsStayOpenExample {
+  text-align: center;
+  padding: 20px;
+  font-family: "Fondamento", cursive;
+}
+
+.logowpp {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  height: 10%;
+  width: 8%;
+}
+
+.barranav {
+  display: flex;
+  justify-content: end;
+  font-family: "Ultra", serif;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .card {
+    height: 20%;
+    width: 20%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

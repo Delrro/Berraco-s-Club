@@ -1,95 +1,101 @@
-@import "conditional", "partials", "variables";
+@import "variables";
+@import "mixin";
 
 
 
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+	margin: 0%;
+	padding: 0%;
 }
-
-body{
-    background-color: #DAD2BC;
-
-    .logo{
-        width: 180px;
-        height: 120px;
-    }
-
-    #navbarNavDropdown{
-        display: flex;
-        justify-content: end;
-    }
-
+body {
+	background-color: $background-color_1;
+	.logo {
+		width: 180px;
+		height: 120px;
+	}
+	#navbarNavDropdown {
+		@include barranav
+	}
 }
-  
-.h2s{
-    display: grid;
-    text-align: center;
-    padding: 30px;
+.h2s {
+	@include h2
 }
-  
-.texto{
-    text-align: center;
-    padding: 20px;
+.texto {
+	@include texto
 }
-  
-  
-.pie{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 25px;
-}
-  
-.logo{
-    width: 30%;
-    height: 30%;
-    cursor: pointer;
-}
-  
-.mapa1{
-    display: block;
-    margin:auto;
-    padding-top: 20px;
-}
-  
-  
-#carouselExampleIndicators{
-    height: 700px;
-    width: 500px;
-    display: block;
-    margin: auto;
-    padding-bottom: 40px;
-}
-  
-.navtransition{
-    font-size: 20px;
-    transition: font-size 0.5s ease;
-}
-  
-.navtransition:hover{
-    font-size: 25px;
-}
-  
-.botones{
-    margin: 15px;
-    border-radius: 15px;
-}
-  
-  
-.textarea{
-    display: inline-block;
-    width: 500px;
-    height: 200px;
-}
-  
-.logoinstagram{
+.pie {
     display: flex;
     justify-content: center;
-    margin: auto;
-    height: 100px;
-    width: 100px;
+	text-align: center;
+	padding-top: 225px;
+	padding-bottom: 25px;
 }
-  
-.backcolornav{
-    background-color: #A99985;
+.logo {
+	width: 30%;
+	height: 30%;
+	cursor: pointer;
+}
+.mapa1 {
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+}
+#carouselExampleIndicators {
+	height: 700px;
+	width: 500px;
+	display: block;
+	margin: auto;
+	padding-bottom: 40px;
+}
+.navtransition {
+	font-size: 20px;
+	transition: font-size 0.5s ease;
+	&:hover {
+		font-size: 25px;
+	}
+}
+.botones {
+	margin: 15px;
+	border-radius: 15px;
+    background-color: $background-color_2;
+}
+.textarea {
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+}
+.logoinstagram {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+}
+.backcolornav {
+	background-color: $background-color_2;
+}
+
+#accordionPanelsStayOpenExample{
+    @include texto
+}
+
+.logowpp{
+	position: fixed;
+	top: 85%;
+	left: 90%;
+	height: 10%;
+	width: 8%;
+}
+
+.barranav{
+	@include barranav;
+}
+
+
+@media (max-width: 600px){
+    .card{
+		height: 20%;
+		width: 20%;
+	}
+
 }
